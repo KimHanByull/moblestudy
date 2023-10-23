@@ -37,7 +37,8 @@ count = 1
 for image in images:
     try:
         image.click()
-        time.sleep(0.8)
+        time.sleep(0.3)
+        time.sleep(0.7)
         
         imgUrl = driver.find_element(
 			By.XPATH,
